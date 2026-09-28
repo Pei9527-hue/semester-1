@@ -1,13 +1,11 @@
-# Fill out the code to make a very simple calculator
+# 2_calculator.py
 
-# ask the user to enter number1:
+# Ask the user to enter two numbers
+num1 = float(input("Enter the first number:"))
+num2 = float(input("Enter the second number:"))
 
+# Calculate the sum
+answer = num1 + num2
 
-# ask the user to enter number 2:
-
-
-# calculate the result of adding those numbers together
-
-
-# print out the answer
-
+# Display the result using f-string
+print(f"The sum of {num1} and {num2} is {answer}"
