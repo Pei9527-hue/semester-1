@@ -1,3 +1,20 @@
 # About Me
+## My name
 
-Using the resources linked in examples, have a go at making a quick about you page using Markdown.
+My name is PEIHENG LI
+
+## About Me
+I am first year student studying in Computer Science.
+## My hobbies
+
+- Playing video games
+
+- Doing sports
+
+- Making coffee
+
+## My Goals
+
+- Improving my Computer Science konwledge
+
+- Getting a good grade
