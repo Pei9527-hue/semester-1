@@ -8,4 +8,4 @@ num2 = float(input("Enter the second number:"))
 answer = num1 + num2
 
 # Display the result using f-string
-print(f"The sum of {num1} and {num2} is {answer}"
+print(f"The sum of {num1} and {num2} is {answer}")
