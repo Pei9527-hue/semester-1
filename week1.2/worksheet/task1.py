@@ -12,7 +12,7 @@ if not grade.isdecimal():
 grade = int(grade)
 
 # Check whether the grade is in the valid range
-if grade < 0 or grade > 100：
+if grade < 0 or grade > 100:
   sys.exit("Error: Grade must be an integer between 0 and 100")
 
 # Grade 
