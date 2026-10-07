@@ -33,5 +33,5 @@ else:
 # Print results
 print(f"Minimum = {minimum}")
 print(f"Maximum = {maximum}")
-print (f"{mean}")
+print (f"Mean = {mean}")
 print(f"Median = {median}")
