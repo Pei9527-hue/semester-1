@@ -9,3 +9,9 @@
 # print image dimension (i.e., Dimensions: width x height pixels)
 
 # print max gray value (i.e., Max Gray Value: max_gray_value)
+filename = "image/filename.pgm"
+
+with open(filename, "r") as file:
+    content = file.read()
+
+print(content)

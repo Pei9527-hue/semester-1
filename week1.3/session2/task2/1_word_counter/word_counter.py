@@ -1,5 +1,12 @@
 # Week 1.3, Session 2: Word Counter
-
+# List of text files
+files = ["story1.txt","story2.txt","glasses.txt"]
+#Count the world in each file
+for filename in files :
+    with open("story1.txt","r",encoding="utf-8")as file:
+        text = file.read()
+        word = txt.split()
+        print(filename,":",len(words),"words")
 # We want to read in a text file, and calculate how many words are in it. 
 # You can use any of the .txt files to test this - or even make your own.
 
