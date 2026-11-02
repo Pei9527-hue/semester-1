@@ -7,11 +7,11 @@ class Person:
     A Person, with a name and a date of birth.
     """
     def __init__(self,name, birth_data):
-        “”“
+        """
         Creates a Person with a name and data of birth
         """
         self.name = name
-        self birth_data = birth_data
+        self.birth_data = birth_data
 
     def initials(self):
         """
@@ -23,10 +23,10 @@ class Person:
         """
         Checks whether today is the person's birthday.
         """
-        today = data.today()
+        today = date.today()
         return(
             today.month == self.birth_data.month
-            and today.day == self.birth_data
+            and today.day == self.birth_data.day
         )
 
 
