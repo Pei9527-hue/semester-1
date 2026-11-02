@@ -14,7 +14,7 @@ class QuakeFeed:
     A specific USGS earthquake data feed.
 
     The feed is specified by its significance level and time period.
-    """
+    """q = Quake(now, 139.9, 28.0, 473.0, 7.0)
 
     def __init__(self, level, period):
         """
