@@ -7,13 +7,22 @@ class Person:
     A Person, with a name and a date of birth.
     """
     def __init__(self,name, birth_data):
+        “”“
+        Creates a Person with a name and data of birth
+        """
         self.name = name
         self birth_data = birth_data
 
     def initials(self):
+        """
+        Returns the initials of the person's name
+        """
         return''.join(word[0].upper() for word in self.name.split())
 
     def is_birthday(self):
+        """
+        Checks whether today is the person's birthday.
+        """
         today = data.today()
         return(
             today.month == self.birth_data.month
