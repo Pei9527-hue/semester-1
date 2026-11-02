@@ -10,6 +10,15 @@ class Person:
         """
         Creates a Person with a name and data of birth
         """
+        if not isinstance(name, str):
+            raise TypeError("name must be a string")
+
+        if name == "":
+            raise ValueError("name cannot be an empty string")
+
+        if not isinstance(birth, date):
+            raise TypeError("birth must be a date object")
+
         self.name = name
         self.birth_data = birth_data
 
