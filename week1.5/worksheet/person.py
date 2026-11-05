@@ -6,7 +6,7 @@ class Person:
     """
     A Person, with a name and a date of birth.
     """
-    def __init__(self,name, birth_data):
+    def __init__(self,name, birth):
         """
         Creates a Person with a name and data of birth
         """
@@ -20,7 +20,7 @@ class Person:
             raise TypeError("birth must be a date object")
 
         self.name = name
-        self.birth_data = birth_data
+        self.birth = birth
 
     def initials(self):
         """
@@ -34,8 +34,8 @@ class Person:
         """
         today = date.today()
         return(
-            today.month == self.birth_data.month
-            and today.day == self.birth_data.day
+            today.month == self.birth.month
+            and today.day == self.birth.day
         )
 
 
