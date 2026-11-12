@@ -35,6 +35,8 @@ def grade(mark):
 
     MarkError is raised if the provided mark is not valid.
     """
+    if not isinstance(mark, int):
+        raise MarkError("mark must be an integer")
     if 0 <= mark < 40:
         return "Fail"
     elif 40 <= mark < 70:
